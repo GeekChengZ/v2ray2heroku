@@ -1,5 +1,5 @@
 # 一键部署 v2ray 到 heroku  
-//[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 - - -
 - - -
 1.部署时配置 v2ray core 的版本、Vmess协议的UUID、AlterId、Path和连接缓存。
@@ -12,9 +12,3 @@
 
 4.更新 v2ray 版本，访问 https://dashboard.heroku.com/apps 选择部署好v2ray的app，如果VER变量为 latest。直接选择More --> Restart all dynos, 程序自动重启，可通过view Logs确认进度。（更新指定版本： Settings --> Reveal Config Varsapp -->VER，修改成需要的版本号，例如 3.21）
 
-# 参考 
-https://github.com/v2ray/v2ray-core
-
-https://github.com/wangyi2005/v2ray-heroku
-
-https://github.com/1715173329/v2ray-heroku-undone
